@@ -1,10 +1,8 @@
 #!/bin/bash
 
-
 #declaring of variable 
-PERSON1=chandu
-PERSON2=pavan
-
+PERSON1=$1
+PERSON2=$2
 
 #reffering variable 
 echo "$PERSON1 :: hey hai $PERSON2 how are you"
